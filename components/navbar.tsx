@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import Link from "next/link";
 import Button from "./button";
 import Image from "next/image";
-import hamburger from "../public/hamburger.svg";
+import hamburger from "@/public/Hamburger.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
